@@ -1,0 +1,69 @@
+.active {
+  background-color: #fe0000;
+}
+
+.listItem {
+  
+  width: 70px;
+  height: 60px;
+  background-color: #fff;
+  list-style-type: none;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 40%;
+
+  transition: 0.2s ease-in;
+
+  display: flex;
+  flex-direction: column;
+
+  font-family: "Poppins";
+  font-size: 10px;
+
+  a {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &:hover{
+    cursor: pointer;
+    background-color: #e54b4b;
+  }
+}
+
+.listItemActive {
+  width: 70px;
+  height: 60px;
+  background-color: #e54b4b;
+  list-style-type: none;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 40%;
+
+  transition: 0.2s ease-in;
+
+  font-family: "Poppins";
+  font-size: 10px;
+
+  a {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .listItem, .listItemActive {
+    width: 50px;
+    height: 45px;
+  }
+}

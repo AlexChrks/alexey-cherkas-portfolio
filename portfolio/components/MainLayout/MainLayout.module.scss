@@ -1,0 +1,70 @@
+.commonWrapper {
+  width: 100%;
+  height: 100vh;
+  background-color: gray;
+
+  display: flex;
+}
+
+.constantPart {
+  width: 40%;
+  background-color: #1f2022;
+  position: relative;
+
+  background-image: url('../../images/profile-photo.jpg');
+  background-repeat: no-repeat;
+  background-position-x: -110px;
+}
+
+.variablePart {
+  width: 60%;
+  background-color: #fff;
+
+  animation: varPart 0.5s ease-in;
+}
+
+@media screen and (max-width: 1300px) {
+  .constantPart {
+    width: 10%;
+    background-color: #1f2022;
+
+    background-image: none;
+  }
+
+  .variablePart {
+    width: 90%;
+    background-color: #fff;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .constantPart {
+    width: 100%;
+    height: 10%;
+    background-color: #1f2022;
+  }
+
+  .variablePart {
+    width: 100%;
+    height: 90%;
+    background-color: #fff;
+  }
+
+  .commonWrapper {
+    width: 100%;
+    height: 100vh;
+    background-color: gray;
+  
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@keyframes varPart {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

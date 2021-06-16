@@ -1,0 +1,24 @@
+.item {
+    width: 48%;
+    height: auto;
+    clear: both;
+    border: 1px solid #00000026;
+    border-radius: 5px;
+    padding: 30px 30px 25px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-family: "Mulish";
+    font-size: 15px;
+    line-height: 2.1;
+    letter-spacing: 0.8px;
+    font-weight: 400;
+    color: #333;
+
+    @media screen and (max-width: 400px) {
+      width: 100%;
+    }
+}

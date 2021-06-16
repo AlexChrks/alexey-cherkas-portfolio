@@ -1,0 +1,43 @@
+.scrollableWrapper {
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+  
+    padding: 68px 80px 60px 80px;
+  
+    font-family: 'Poppins', sans-serif;
+  
+    @media screen and (max-width: 768px) {
+      padding: 50px 20px;
+    }
+  }
+
+  .contactsContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    @media screen and (max-width: 768px) {
+      flex-direction: column;
+    }
+  }
+
+  .formGenWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    .formWrapper {
+      width: 50%;
+
+      @media screen and (max-width: 768px) {
+        width: 80%
+      }
+    }
+  }
+}

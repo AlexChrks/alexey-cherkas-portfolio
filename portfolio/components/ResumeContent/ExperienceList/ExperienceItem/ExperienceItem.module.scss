@@ -1,0 +1,47 @@
+.itemContainer {
+  width: 100%;
+  border-bottom: 1px solid #00000026;
+  padding-bottom: 25px;
+  margin-bottom: 34px;
+
+  display: flex;
+  justify-content: space-between;
+  
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  div {
+    width: 30%;
+
+    @media screen and (max-width: 768px) {
+      width: 100%;
+    }
+  }
+}
+
+.timeInterval, .positionAndCompany {
+  color: #000;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.4;
+  font-family: "Poppins";
+}
+
+.positionAndCompany{
+  text-align: center;
+}
+
+.skills {
+  font-family: "Mulish";
+  font-size: 15px;
+  line-height: 2.1;
+  letter-spacing: 0.8px;
+  word-wrap: break-word;
+  font-weight: 400;
+  color: #333;
+
+  display: flex;
+  justify-content: flex-end;
+
+}

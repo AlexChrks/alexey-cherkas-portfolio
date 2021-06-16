@@ -1,0 +1,31 @@
+.navigation {
+  position: absolute;
+  left: 5%;
+  top: calc(50% - 150px);
+
+  ul {
+    border-radius: 5px 0 5px 0;
+    overflow: hidden;
+  }
+}
+
+.active {
+  background-color: #e54b4b;
+}
+
+@media screen and (max-width: 1024px) {
+  .navigation {
+    top: calc(50% - 30px);
+    left: calc(50% - 175px);
+    ul {
+      display: flex;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navigation {
+    top: calc(50% - 22.5px);
+    left: calc(50% - 125px);
+  }
+}

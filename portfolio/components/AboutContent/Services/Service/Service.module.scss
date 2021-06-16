@@ -1,0 +1,22 @@
+.serviceWrapper {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+  align-items: flex-start;
+  width: 100%;
+
+  h3 {
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  p {
+    font-family: "Mulish";
+    font-size: 15px;
+    line-height: 2.1;
+    letter-spacing: 0.8px;
+    word-wrap: break-word;
+    font-weight: 400;
+    color: #333;
+  }
+}

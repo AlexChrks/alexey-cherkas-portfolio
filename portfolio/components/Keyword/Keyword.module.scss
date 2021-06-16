@@ -1,0 +1,34 @@
+.keyword {
+  font-weight: 600;
+  color: #fe0000;
+  animation: keyword 2s linear;
+}
+
+.container {
+  position: relative;
+  strong {
+    font-weight: 600;
+    color: #fe0000;
+    animation: keyword 2s linear;
+
+    position: absolute;
+    left: 5px;
+  }
+}
+
+.active {
+  background-color: #fe0000;
+}
+.invisible {
+  display: none;
+}
+
+@keyframes keyword {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,68 @@
+.personalInfoSection {
+  display: flex;
+  justify-content: space-between;
+
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+    align-items: baseline;
+  }
+
+  .summaryWrapper {
+    width: 60%;
+    padding-right: 50px;
+
+    @media screen and (max-width: 768px) {
+      width: 100%;
+      padding: 0;
+      margin-bottom: 20px;
+    }
+
+    h4 {
+      font-size: 18px;
+      font-weight: 600;
+
+      padding-bottom: 10px;
+    }
+
+    p {
+      font-family: "Mulish", sans-serif;
+      font-size: 15px;
+      line-height: 2.1;
+      letter-spacing: 0.8px;
+      word-wrap: break-word;
+      font-weight: 400;
+      background-color: #fff;
+      color: #333;
+    }
+  }
+
+  .personalDataWrapper {
+    width: 40%;
+    padding-left: 30px;
+
+    font-family: "Mulish", sans-serif;
+
+    @media screen and (max-width: 768px) {
+      width: 100%;
+      padding: 0;
+    }
+
+    ul {
+      list-style-type: none;
+
+      li {
+        font-size: 14px;
+        line-height: 2.9;
+        letter-spacing: 0.8px;
+
+        label {
+          min-width: 80px;
+          display: inline-block;
+          color: #e54b4b;
+          font-weight: 800;
+
+        }
+      }
+    }
+  }
+}
