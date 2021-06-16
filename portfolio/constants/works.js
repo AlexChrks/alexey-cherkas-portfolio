@@ -60,7 +60,7 @@ const works = [
     timeInterval: 'May 2021 - May 2021',
     title: 'Weather Forecast',
     description: 'Simple weather-forecast application built with React.js and WeatherAPI. Beauty, useability, convenience',
-    deployLink: '/works'
+    deployLink: 'https://alexchrks.github.io/forecast-weather/'
   },
   {
     id: 7,
@@ -69,7 +69,7 @@ const works = [
     timeInterval: 'May 2021 - June 2021',
     title: 'Currency exchange',
     description: 'Useful currency exchange application built with pure React helps to control market rates.',
-    deployLink: '/works'
+    deployLink: 'https://alexchrks.github.io/exchange-currency/'
   },
 ];
 
