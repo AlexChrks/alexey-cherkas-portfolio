@@ -4,7 +4,7 @@ function Keyword() {
 
   return (
     <span className={styles.container}>
-      <strong ref={developer}>developer</strong>
+      <strong>developer</strong>
     </span>
   )
 }
