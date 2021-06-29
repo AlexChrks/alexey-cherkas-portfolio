@@ -12,6 +12,10 @@ const programmingSkills = [
     progress: 80
   },
   {
+    skill: 'TypeScript',
+    progress: 40
+  },
+  {
     skill: 'Redux',
     progress: 80
   }

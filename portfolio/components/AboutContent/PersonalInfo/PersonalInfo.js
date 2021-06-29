@@ -20,6 +20,7 @@ function PersonalInfo() {
           <li><label>Adress:</label><span>Melezha str.14, Gomel, Belarus</span></li>
           <li><label>Email:</label><span>alexey.cherkas1997@gmail.com</span></li>
           <li><label>Phone:</label><span>+375292177762</span></li>
+          <li><label>Website:</label><span>https://portfolio-alex-cherkas-ca335iki3-alexchrks.vercel.app/</span></li>
         </ul>
       </div>
 
