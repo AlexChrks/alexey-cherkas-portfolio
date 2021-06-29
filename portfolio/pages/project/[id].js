@@ -1,15 +1,19 @@
-import {useRouter} from 'next/router';
+import {useRouter, useState} from 'next/router';
 import works from '../../constants/works';
 import MainLayout from '../../components/MainLayout/MainLayout';
 import PageSubtitle from '../../components/PageSubtitle/PageSubtitle'
-import Image from 'next/dist/client/image';
 
 import styles from '../../styles/Project.module.scss';
 
 function Project() {
+
   const router = useRouter();
   const {id} = router.query;
-  const {imageSrc, technologies, timeInterval, title, description, deployLink} = works[id];
+  let id1 = id;
+  if (!id) {
+    id1 = 1
+  }
+  const {imageSrc, technologies, timeInterval, title, description, deployLink} = works[id1];
 
   return (
     <MainLayout>

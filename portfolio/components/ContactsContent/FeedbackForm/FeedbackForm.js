@@ -1,16 +1,11 @@
 import { useState } from 'react';
-import dynamic from 'next/dynamic'
-import emailjs from 'emailjs-com';
+// import emailjs from 'emailjs-com';
 
 import styles from './FeedbackForm.module.scss'
 
 import initialFormState from '../../../constants/initialFormState';
 
 function FeedbackForm() {
-
-
-  // const emailjs = dynamic(() => import('emailjs-com'), { ssr: false })
-  // console.log(emailjs)
 
   const [formState, setFormState] = useState(initialFormState);
 
@@ -24,11 +19,11 @@ function FeedbackForm() {
 
     function sendEmail(e) {
     e.preventDefault();
-    console.log(e.target)
-    emailjs.sendForm('service_oga5efs', 'template_nbz2t79', e.target, 'user_jjhXEtR76EtBCHAqIhEZT')
-      .then((result) => {
-          setFormState(initialFormState)
-      });
+    // emailjs.sendForm('service_oga5efs', 'template_nbz2t79', e.target, 'user_jjhXEtR76EtBCHAqIhEZT')
+    //   .then((result) => {
+    //       setFormState(initialFormState)
+    //   });
+    console.log('sent')
   }
 
   return (

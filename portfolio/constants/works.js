@@ -60,7 +60,7 @@ const works = [
     timeInterval: 'May 2021 - May 2021',
     title: 'Weather Forecast',
     description: 'Simple weather-forecast application built with React.js and WeatherAPI. Beauty, useability, convenience',
-    deployLink: '#'
+    deployLink: 'https://alexchrks.github.io/forecast-weather/'
   },
   {
     id: 7,
@@ -69,7 +69,16 @@ const works = [
     timeInterval: 'May 2021 - June 2021',
     title: 'Currency exchange',
     description: 'Useful currency exchange application built with pure React helps to control market rates.',
-    deployLink: '#'
+    deployLink: 'https://alexchrks.github.io/exchange-currency/'
+  },
+  {
+    id: 8,
+    imageSrc: '/todo-typescript.png',
+    technologies: 'TypeScript, React.js, Redux.js',
+    timeInterval: 'June 2021 - June 2021',
+    title: 'Todo',
+    description: 'Simple todo application. Created to improve typescript skills',
+    deployLink: 'https://alexchrks.github.io/todo-typescript/'
   },
 ];
 
