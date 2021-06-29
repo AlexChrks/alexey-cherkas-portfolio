@@ -71,6 +71,15 @@ const works = [
     description: 'Useful currency exchange application built with pure React helps to control market rates.',
     deployLink: 'https://alexchrks.github.io/exchange-currency/'
   },
+  {
+    id: 8,
+    imageSrc: '/todo-typescript.png',
+    technologies: 'TypeScript, React.js, Redux.js',
+    timeInterval: 'June 2021 - June 2021',
+    title: 'Todo',
+    description: 'Simple todo application. Created to improve typescript skills',
+    deployLink: 'https://alexchrks.github.io/todo-typescript/'
+  },
 ];
 
 export default works;
