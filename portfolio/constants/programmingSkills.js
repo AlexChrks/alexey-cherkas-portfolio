@@ -12,6 +12,10 @@ const programmingSkills = [
     progress: 80
   },
   {
+    skill: 'Next.js',
+    progress: 70
+  },
+  {
     skill: 'TypeScript',
     progress: 40
   },
