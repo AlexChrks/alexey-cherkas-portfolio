@@ -1,9 +1,9 @@
 const experience = [
   {
-    timeInterval: 'May 2021 - Current',
-    position: 'Trainee Front-end developer',
-    company: 'Antalogic',
-    gottenSkills: 'React.js, Next.js'
+    timeInterval: 'May 2019 - Current',
+    position: 'Front-End Web Developer',
+    company: 'Antalogic LLC',
+    gottenSkills: 'React.js, Next.js, Typescript'
   },
   {
     timeInterval: 'February 2021 - May 2021',
