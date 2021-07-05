@@ -10,9 +10,7 @@ function Resume() {
     <MainLayout>
       <div className={styles.scrollableWrapper}>
         <div className={styles.wrapper}>
-          <PageTitle title='Working' keyword=' Process'/>
-          <ExperienceList/>
-          <StyledButton text='Download CV'/>
+          <PageTitle title='Working' keyword=' Skills'/>
           <Skills/>
         </div>
       </div>

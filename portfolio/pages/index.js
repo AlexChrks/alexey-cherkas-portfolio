@@ -10,7 +10,6 @@ function Home() {
       <div className={styles.wrapper}>
         <h1 className={styles.name}>Alex Cherkas</h1>
         <p className={styles.whoAmI}>I'm a <Keyword/></p>
-        <StyledButton text='Download CV'/>
       </div>
     </MainLayout>
   )

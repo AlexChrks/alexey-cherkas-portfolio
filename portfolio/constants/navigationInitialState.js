@@ -26,14 +26,7 @@ const navInitState = [
     imgUrl: '/briefcase.svg',
     route: '/works',
     id: 3
-  },
-  {
-    title: 'Contact',
-    isActive: false,
-    imgUrl: '/mail.svg',
-    route: '/contact',
-    id: 4
-  },
+  }
 ];
 
 export default navInitState;
