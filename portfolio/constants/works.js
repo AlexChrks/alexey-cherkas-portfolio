@@ -80,6 +80,15 @@ const works = [
     description: 'Simple todo application. Created to improve typescript skills',
     deployLink: 'https://alexchrks.github.io/todo-typescript/'
   },
+  {
+    id: 9,
+    imageSrc: '/react-pizza.png',
+    technologies: 'TypeScript, React.js, Redux.js',
+    timeInterval: 'June 2021 - July 2021',
+    title: 'React-pizza',
+    description: 'Online pizza shop. Used React-router to navigate app between pages. To save data after reload used Local Storage. Implemented redux storage. Available pagination of pizza constructor. Easy to use and pleasure to see',
+    deployLink: 'https://alexchrks.github.io/react-pizza'
+  },
 ];
 
 export default works;
