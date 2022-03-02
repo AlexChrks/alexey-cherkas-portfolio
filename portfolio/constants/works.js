@@ -1,7 +1,7 @@
 const works = [
   {
     id: 0,
-    imageSrc: '/Bricoprive.png',
+    imageSrc: '/bricoprive.png', 
     technologies: 'HTML, CSS, JS, React, Algolia, Tailwind CSS, Cypress, Jest, React-Native, Redux, Redux-Saga',
     timeInterval: 'September 2021 - March 2022',
     title: 'Search Engine',
