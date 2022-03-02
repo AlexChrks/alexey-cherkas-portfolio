@@ -17,12 +17,29 @@ const programmingSkills = [
   },
   {
     skill: 'TypeScript',
-    progress: 40
+    progress: 80
   },
   {
     skill: 'Redux',
     progress: 80
-  }
+  },
+  {
+    skill: 'React-Native',
+    progress: 70
+  },
+  {
+    skill: 'Tailwind CSS',
+    progress: 80
+  },
+  {
+    skill: 'Algolia',
+    progress: 60
+  },
+  {
+    skill: 'Cypress',
+    progress: 60
+  },
+
 ];
 
 export default programmingSkills;

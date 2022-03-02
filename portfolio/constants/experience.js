@@ -1,6 +1,12 @@
 const experience = [
   {
-    timeInterval: 'May 2019 - Current',
+    timeInterval: 'September 2021 - March 2022',
+    position: 'Front-End Web/Mobile Developer',
+    company: 'Bricoprive',
+    gottenSkills: 'React.js, Next.js, Typescript, React-Native, Algolia, Tailwind, Circle CI, Cypress'
+  },
+  {
+    timeInterval: 'May 2019 - September 2021',
     position: 'Front-End Web Developer',
     company: 'Antalogic LLC',
     gottenSkills: 'React.js, Next.js, Typescript'
