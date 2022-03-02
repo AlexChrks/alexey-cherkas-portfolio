@@ -7,9 +7,11 @@ function PersonalInfo() {
     <section className={styles.personalInfoSection}>
 
       <div className={styles.summaryWrapper}>
-        <h4>I'm Alex and <Keyword/></h4>
+        <h4>I'm Alex and I'm a <Keyword/></h4>
         <p>
-          Hi! My name is Alexey Cherkas. I am a Web Developer, and I'm very passionate and dedicated to my work. With 2 years of experience, I have acquired the skills and knowledge necessary to make your project a success. I enjoy every step of the design process.
+        I have 2,5 years of experience with React, developing qualitative web applications.
+Understanding of popular modern React workflows, such as Redux, Thunk. Good proficiency with JavaScript, HTML, CSS, and also TypeScript. I also have experience in building mobile apps using React Native.
+
         </p>
       </div>
 

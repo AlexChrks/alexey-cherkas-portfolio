@@ -26,7 +26,8 @@ function Project() {
             <span>{timeInterval}</span>
             <span>{technologies}</span>
             <p className={styles.description}>{description}</p>
-            <a className={styles.link} href={deployLink} target="_blank">View deploy</a>
+            {deployLink !== '' ? <a className={styles.link} href={deployLink} target="_blank">View deploy</a> : <p>NDA</p>}
+            
           </div> 
        </div>
     </MainLayout>
